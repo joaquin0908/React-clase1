@@ -1,0 +1,22 @@
+.p{
+    text-align: center;
+    color: violet;
+    background: green;
+}
+
+p:hover{
+    color: green;
+    background: violet;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+@keyframes p {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
